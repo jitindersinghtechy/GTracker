@@ -8,6 +8,7 @@
     "platforms": [
       "ios", 
       "android"
+      "tablet"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
