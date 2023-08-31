@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Const from '../common/constant'
 import { Card } from 'react-native-elements';
 var moment = require('moment');
-import {
+import { 
+  Background,
   Text,
   View,
   Image, NetInfo, AsyncStorage, StyleSheet, Dimensions, Platform,
@@ -10,7 +11,7 @@ import {
 } from 'react-native';
 import { TabView, TabBar, SceneMap } from 'react-native-tab-view';
 import AppHeader from '../header';
-import styles from '../style/details'
+import styles from '../style/details,
 import commonFunction from '../common/functions'
 export default class Profile extends Component {
   constructor(props) {
